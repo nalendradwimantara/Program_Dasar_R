@@ -5,12 +5,13 @@ b <- c(3.2, 3.7, 2.8, 3.5, 3.8, 3.3)
 c <- c('Pria', 'Wanita', 'Pria', 'Pria','Wanita', 'Wanita')
 c <- as.factor(c)
 d <-  c(FALSE, FALSE, FALSE, TRUE, TRUE, FALSE)
+e <- c(28, 27, 28, 26, 25, 25)
 
-df <- data.frame(a,b,c,d)
+df <- data.frame(a,b,c,d,e)
 df
 
 # Beri Nama Kolom
-names(df) <- c('Nama', 'IPK', 'Gender', 'Asal_Tangsel')
+names(df) <- c('Nama', 'IPK', 'Gender', 'Asal_Tangsel','Usia')
 df
 
 # Sort data (Mengurutkan Data)
