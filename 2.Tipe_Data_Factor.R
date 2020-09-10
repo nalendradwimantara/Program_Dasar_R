@@ -9,7 +9,7 @@ class(jenis_kelamin)
 factor_jk <- factor(jenis_kelamin)
 class(factor_jk)
 
-fector_jk
+factor_jk
 summary(factor_jk) # Untuk Melihat banyaknya anggota grup
 
 
